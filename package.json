@@ -1,0 +1,35 @@
+{
+  "name": "ultebra-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrainingITCourses/ultebra-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrainingITCourses/ultebra-cypress/issues"
+  },
+  "homepage": "https://github.com/TrainingITCourses/ultebra-cypress#readme",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "prettier": "^2.3.0"
+  }
+}
