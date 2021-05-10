@@ -1,4 +1,7 @@
 {
+  "env": {
+    "baseUrl": "https://labsademy.github.io/ProtonTasks/"
+  },
   "chromeWebSecurity": false,
   "video": false,
   "screenshotOnRunFailure": true,
