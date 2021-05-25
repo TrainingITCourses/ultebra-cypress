@@ -2,6 +2,7 @@
   "env": {
     "baseUrl": "https://labsademy.github.io/ProtonTasks/"
   },
+  "baseUrl": "https://labsademy.github.io/ProtonTasks/",
   "chromeWebSecurity": false,
   "video": false,
   "screenshotOnRunFailure": true,
@@ -14,5 +15,6 @@
     "reportDir": "cypress/reports",
     "reportFilename": "report",
     "overwrite": false
-  }
+  },
+  "ignoreTestFiles": ["*.feature", "./examples/*"]
 }
